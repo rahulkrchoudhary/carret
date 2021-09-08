@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Flower Crib",
-    "slug": "flowerCrib",
+    "name": "Carret",
+    "slug": "carret",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
