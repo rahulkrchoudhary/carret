@@ -102,7 +102,7 @@ const Signup = ({ navigation }) => {
 
   // Persisting login after signup
   const persistLogin = (credentials, message, status) => {
-    AsyncStorage.setItem('flowerCribCredentials', JSON.stringify(credentials))
+    AsyncStorage.setItem('carretCredentials', JSON.stringify(credentials))
       .then(() => {
         handleMessage(message, status);
         setStoredCredentials(credentials);
